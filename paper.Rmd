@@ -63,7 +63,6 @@ nome^2^
 A tabela *mtcars* tem `r nrow(mtcars)` linhas.
 
 ```{r, echo=FALSE, eval=TRUE}
-data("mtcars")
 kable(mtcars)
 ```
 
