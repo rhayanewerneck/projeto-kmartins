@@ -6,7 +6,10 @@ author:
 - ^2^*Casa*
 - \*mamae@gmail.com
 output: 
-  word_document:
+  html_document:
+    toc: true
+    toc_float: true
+    highlight: tango
     reference_docx: scripts/template.docx
 bibliography: library/My-Collection.bib
 csl: library/freshwater-biology.csl
